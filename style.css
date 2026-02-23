@@ -1,34 +1,34 @@
 
-html{
-  height: 100%;
-}
+
 
 body{
-  background-size:contain ;
-  background-repeat: no-repeat;
+  background-size:cover ;
+  background-repeat: repeat;
   background: linear-gradient(135deg, #11162c, #514ba2);
 
   
 }
 
 .container{
-max-width: 60%;
+max-width: 80%;
 
 text-align: center;
 margin-top:250px;
+margin-bottom: 50px;
 
   
 }
 
 .font h1,button{
-  font-family: "Ubuntu", sans-serif;
+  font-family: "Savate", sans-serif;
+ font-weight: 300;
 }
 
 .note{
   color: #f1f1f5;
   font-size: 4.4rem;
   margin-bottom: 25px;
-  text-shadow: 1px 0px 4px rgb(247, 164, 164);
+  text-shadow: 1px 0px 9px rgb(3, 3, 3);
 
 }
 
@@ -37,7 +37,7 @@ color: rgb(250, 250, 249);
 font-weight: 400;
 font-size: 4.0rem;
 margin-bottom: 35px;
-text-shadow: 0px 0px 4px rgb(243, 177, 177);
+text-shadow: 0px 0px 9px rgb(0, 0, 0);
 
 }
 
@@ -61,7 +61,8 @@ button{
 input {
   margin-top: 25px;
   margin-bottom: 15px;
-  box-shadow: 0px 0px 1px burlywood;
+  box-shadow: 0px 0px 5px rgb(211, 202, 186);
+ 
 }
 
 .card{
@@ -77,16 +78,20 @@ h1{
 li{
   color: azure;
 }
+ol{
+  margin-top: 20px;
+}
 
 .btn-info{
   background: rgb(53, 135, 228);
   color: azure;
   width: 45%;
   align-self: center;
+  border: none;
 }
 
 .btn-success{
- 
+ border: none;
   background: rgb(114, 185, 126);
     width: 45%;
   align-self: center;
@@ -132,3 +137,10 @@ li{
 .edit:hover{
   color: rgb(55, 55, 185);
 }
+
+#result{
+  box-shadow: 0px 0px 5px rgb(103, 104, 105);
+}
+
+
+
