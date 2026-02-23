@@ -1,0 +1,134 @@
+
+html{
+  height: 100%;
+}
+
+body{
+  background-size:contain ;
+  background-repeat: no-repeat;
+  background: linear-gradient(135deg, #11162c, #514ba2);
+
+  
+}
+
+.container{
+max-width: 60%;
+
+text-align: center;
+margin-top:250px;
+
+  
+}
+
+.font h1,button{
+  font-family: "Ubuntu", sans-serif;
+}
+
+.note{
+  color: #f1f1f5;
+  font-size: 4.4rem;
+  margin-bottom: 25px;
+  text-shadow: 1px 0px 4px rgb(247, 164, 164);
+
+}
+
+#to-do-list{
+color: rgb(250, 250, 249);
+font-weight: 400;
+font-size: 4.0rem;
+margin-bottom: 35px;
+text-shadow: 0px 0px 4px rgb(243, 177, 177);
+
+}
+
+button{
+  margin: 5px;
+  
+}
+.btnjs{
+  background: #d7d6e6;
+  border:1px solid rgb(73, 71, 71);
+ 
+
+}
+
+.btnjs:hover{
+  background: #e7e7eb;
+  box-shadow: 0px 0px 5px black;
+  width: 48px;
+}
+
+input {
+  margin-top: 25px;
+  margin-bottom: 15px;
+  box-shadow: 0px 0px 1px burlywood;
+}
+
+.card{
+  box-shadow: 0px 0px 2px rgb(32, 32, 32);
+background: #494d5f;
+
+}
+
+
+h1{
+  color: azure;
+}
+li{
+  color: azure;
+}
+
+.btn-info{
+  background: rgb(53, 135, 228);
+  color: azure;
+  width: 45%;
+  align-self: center;
+}
+
+.btn-success{
+ 
+  background: rgb(114, 185, 126);
+    width: 45%;
+  align-self: center;
+}
+
+.confirm{
+   margin-top: 20px;
+  background: #74a7f5;
+    width: 45%;
+  align-self: center;
+
+}
+
+
+
+.concluida {
+  text-decoration: line-through;
+  color: red;
+}
+
+.trash{
+  font-size: 23px;
+  color: rgb(238, 93, 93);
+}
+
+.trash:hover{
+  color: #ee3a2d;
+ 
+}
+
+.check{
+  color: green;
+  font-size: 23px;
+}
+.check:hover{
+  color: rgb(1, 82, 1);
+}
+
+.edit{
+  color: rgb(82, 82, 231);
+  font-size: 23px;
+}
+.edit:hover{
+  color: rgb(55, 55, 185);
+}
