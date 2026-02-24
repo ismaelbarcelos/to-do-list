@@ -72,7 +72,7 @@ let estilo = ""
   result.innerHTML +=
     "<li > <span class='"+estilo+"'>"
         + arrayList[indice].texto +
-      "</span> <button class='btn btnjs' onclick='marcar("+indice+")'> <i class='fa-regular fa-square-check check'></i>  </button> <button class='btn btnjs' onclick='editar("+arrayList[indice].id+")'> <i class='fa-solid fa-pen edit'></i> </button> <button class='btn btnjs' onclick='remover(" + arrayList[indice].id + ")'><i class='fa-regular fa-trash-can trash'></i> </button>    </li>    "
+      "</span>  <i onclick='marcar("+indice+")' class='fa-regular fa-square-check check'></i>   <i onclick='editar("+arrayList[indice].id+")' class='fa-solid fa-pen edit'></i>  <i onclick='remover(" + arrayList[indice].id + ")' class='fa-regular fa-trash-can trash'></i>    </li>    "
  
     }
     }
@@ -123,6 +123,7 @@ let edit = ''
 
   savarNolocalStorage();
   mostrarLista();
+  location.reload();
  
  
 

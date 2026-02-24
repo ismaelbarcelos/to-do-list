@@ -48,6 +48,8 @@ button{
 .btnjs{
   background: #d7d6e6;
   border:1px solid rgb(73, 71, 71);
+  width: 20px;
+  height: 20px;
  
 
 }
@@ -81,6 +83,12 @@ li{
 ol{
   margin-top: 20px;
 }
+
+i{
+  margin: 5px;
+}
+
+
 
 .btn-info{
   background: rgb(53, 135, 228);
