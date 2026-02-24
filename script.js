@@ -14,6 +14,7 @@ if(dadosSalvos){
 function addList(){
 
  let ativi = document.getElementById("addList").value;
+ let digitarAtivi = document.getElementById("preencher")
 
  let objectAtividade = {
   id:Date.now(),
@@ -30,8 +31,12 @@ if(ativi !=''){
 
   }
   else {
-alert("digite aluma atividade antes de clicar em adicionar ")
+//alert("digite aluma atividade antes de clicar em adicionar ")
+   digitarAtivi.style.color = 'red'
+ digitarAtivi.innerHTML = "digite alguma atividade"
+ 
 }
+
 savarNolocalStorage()
 mostrarLista()
 
